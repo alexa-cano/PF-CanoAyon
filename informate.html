@@ -38,7 +38,7 @@
                     </ul>
                     <form class="d-flex" role="search">
                       <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success" type="submit">Search</button>
+                      <button class="btn btn-outline-success" type="submit"></button>
                     </form>
                   </div>
                 </div>
@@ -63,6 +63,7 @@
 </section>
 
 <!--Sección tipos de violencia -->
+    <div class= "container">
     <section class="tipos-violencia">
         <h6>TIPOS DE VIOLENCIA DE GÉNERO</h6>
     <div class="row row-cols-1 row-cols-md-2 g-4">
@@ -104,32 +105,55 @@
         </div>
       </div>
     </section>
+    </div>
 <!--Fin sección tipos de violencia -->
 
 
 <!--Sección estadísticas-->
-    <section>
+    <section class="container">
         <h2>Estadísticas sobre violencia de género</h2>
         <p>FEMINICIDIOS: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. </p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.</p>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec, mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id.</p>
         
-        <div class="estadísticas">
-            <img src="" alt="estadísticas">
+        <!--Carussel de estadísticas-->
+        <h2 class="Estadísticas">Estadísticas</h2>
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="imagenes/violencia-genero-2.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="imagenes/Violencia-Sexual-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/imagenes/violencia-3.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="/imagenes/violencia-4.jpg" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
     </section>
-
-    <footer id="pie"> 
-        <h2>"Unidas seremos invencibles"</h1>
-        <h3>¡Tolerancia cero! ante la violencia de género</h3>
-
-    <section class="pie2">
-            <h4>Nombre de la organización</h4>
-            <h5>© 2023 organización</h5>
-        </section>
-
-    </footer>
+    
+    <footer id="pie-nuevo"> 
+      <div class="pie-nuevo1">
+          <h2>"Unidas seremos invencibles"</h2>
+          <h3>¡Tolerancia cero! ante la violencia de género</h3>
+      </div>
+      <div class="pie-nuevo2">
+          <h4>Nombre de la organización</h4>
+          <h5>© 2023 organización</h5>
+      </div>
+  </footer>
     
 </body>
 </html>
-

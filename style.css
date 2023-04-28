@@ -124,15 +124,6 @@ line-height: 100px;
 .foro-experiencias{
     text-align: center;
 }
-/*Pie de página*/
-#id{
-    background: #ffdad8;
-    height: 100% 
-}
-
-#pie{
-    background-color:#ffdad8 ;
-}
 
 /*Sección infórmate*/
 
@@ -171,3 +162,82 @@ line-height: 100px;
 .card-img-top{
     width: 100%;
 }
+
+.carousel-inner{
+    width: 600px;
+    height: 600px;
+}
+
+/*Pie de página*/
+.pie1{
+    background: #ffdad8;
+    text-align: center;
+    height: 200px;
+    vertical-align: middle;
+}
+
+
+.pie2 h4 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 55%;
+    font-size: 14px;
+    margin-top: 40px;
+    
+  }
+  
+  .pie2 h5 {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    width: 45%;
+    text-align: right;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+
+
+#pie h2{
+    font-family: 'Amita', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+}
+
+.pie-nuevo1 h2{
+    font-family: 'Amita', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    align-items: center;
+}
+ 
+ .pie-nuevo1 {
+    background-color: #ffdad8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+ }
+ 
+ .pie-nuevo2 h4 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: right;
+    width: 55%;
+    font-size: 14px;
+    margin-top: 40px;
+    
+  }
+  
+  .pie-nuevo2 h5 {
+    display: inline-block;
+    vertical-align: middle;
+    float: right;
+    width: 45%;
+    text-align: right;
+    font-size: 14px;
+    margin-top: 40px;
+  }
+ 
