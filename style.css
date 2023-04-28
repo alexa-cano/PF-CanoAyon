@@ -161,12 +161,34 @@ line-height: 100px;
 
 .card-img-top{
     width: 100%;
+    
 }
 
 .carousel-inner{
     width: 600px;
     height: 600px;
 }
+
+.Estadísticas {
+    text-align: center;
+}
+
+/*Contacto*/
+.contacto{
+    margin-top: 80px;
+    text-align: center;
+}
+.redes img{
+    width: 50px;
+}
+
+
+/*Sección apoyo*/
+#ayuda{
+    margin-top: 80px;
+}
+
+
 
 /*Pie de página*/
 .pie1{
@@ -241,3 +263,16 @@ line-height: 100px;
     margin-top: 40px;
   }
  
+  details {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  summary {
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
