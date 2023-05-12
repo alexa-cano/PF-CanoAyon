@@ -1,0 +1,64 @@
+$color-rosado: #ff88bf;
+$color-morado: #9d0fc9;
+
+.Foro {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 32px;
+  color: $color-rosado;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.foro-experiencias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: $color-morado;
+    margin-bottom: 5px;
+  }
+
+  input[type="text"],
+  textarea {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: $color-morado;
+    background-color: #F8F8F8;
+    border: 1px solid $color-rosado;
+    border-radius: 4px;
+    padding: 5px;
+    margin-bottom: 10px;
+    width: 80%;
+  }
+
+  textarea {
+    resize: none;
+    color: black;
+  }
+
+  input[type="submit"] {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: $color-morado;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+      background-color: darken($color-morado, 10%);
+    }
+  }
+}
+
+hr {
+  border: none;
+  border-top: 1px solid $color-rosado;
+  margin-top: 40px;
+}

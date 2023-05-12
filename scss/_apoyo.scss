@@ -1,0 +1,133 @@
+$color-rosado: #FFC0CB;
+$color-negro: black;
+$color-blanco: #FFFFFF;
+
+/*Página apoyo*/
+  /*Sección profesionales*/
+#ayuda {
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 80px; 
+  text-align: center;
+  h2{
+    color: palevioletred;
+   }
+   p{}
+  .row {
+    display: flex;
+
+    .col-4,
+    .col-8 {
+      padding: 15px;
+    }
+
+    .list-group {
+      .list-group-item {
+        color: $color-rosado;
+        background-color: $color-blanco;
+        border: 1px solid $color-morado;
+        border-radius: 4px;
+        margin-bottom: 10px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        &:hover {
+          background-color: lighten($color-rosado, 10%);
+        }
+
+        &.active {
+          background-color: $color-rosado;
+          color: $color-blanco;
+        }
+      }
+    }
+
+    .tab-content {
+      background-color: $color-blanco;
+      border: 1px solid $color-morado;
+      border-radius: 4px;
+      padding: 20px;
+
+      .tab-pane {
+        color: $color-morado;
+        display: none;
+
+        &.active {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+
+/*Sección fundaciones y números de emergencia*/
+$color-rosado: #FFC0CB;
+$color-naranja: #f5982e;
+
+.container {
+  font-family: 'Times New Roman', Times, serif;
+   margin-top: 100px;
+   margin-bottom: 80px;
+  h2 {
+    font-size: 28px;
+    color: black;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .accordion {
+    .accordion-item {
+      margin-bottom: 10px;
+
+      .accordion-header {
+        background-color: $color-rosado;
+        border-radius: 4px;
+
+        .accordion-button {
+          color: $color-naranja;
+          font-size: 16px;
+          padding: 10px;
+          display: block;
+          width: 100%;
+          text-align: left;
+          background-color: transparent;
+          border: none;
+          cursor: pointer;
+          transition: background-color 0.3s;
+
+          &:hover {
+            background-color: darken($color-rosado, 10%);
+          }
+
+          &.collapsed {
+            color: $color-rosado;
+            background-color: $color-naranja;
+
+            &:hover {
+              background-color: darken($color-naranja, 10%);
+            }
+          }
+        }
+      }
+
+      .accordion-collapse {
+        .accordion-body {
+          font-size: 14px;
+          color: black;
+          padding: 10px;
+          background-color: $color-rosado;
+          border-radius: 4px;
+        }
+      }
+    }
+  }
+}
+
+/*Fin página apoyo*/

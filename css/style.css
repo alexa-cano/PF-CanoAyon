@@ -1,0 +1,401 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Times New Roman", Times, serif;
+}
+
+header nav.navbar.navbar-expand-lg.bg-body-tertiary .container-fluid .navbar-brand {
+  width: 232px;
+  height: 35px;
+  color: palevioletred;
+  font-family: "Cookie", cursive;
+  font-size: 30px;
+  line-height: 1.3;
+  text-align: center;
+}
+header nav.navbar.navbar-expand-lg.bg-body-tertiary .container-fluid .collapse.navbar-collapse form.d-flex button.btn.btn-outline-success {
+  background-color: plum;
+  border: salmon;
+  color: whitesmoke;
+}
+header nav.navbar.navbar-expand-lg.bg-body-tertiary .container-fluid .collapse.navbar-collapse form.d-flex button.btn.btn-outline-success:hover {
+  color: black;
+}
+
+#pie-nuevo .pie-nuevo1 {
+  background-color: #ffdad8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+}
+#pie-nuevo .pie-nuevo1 h2 {
+  font-family: "Amita", cursive;
+  font-size: 25px;
+  font-weight: bold;
+  align-items: center;
+}
+#pie-nuevo .pie-nuevo2 h4 {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: right;
+  width: 55%;
+  font-size: 14px;
+  margin-top: 40px;
+}
+#pie-nuevo .pie-nuevo2 h5 {
+  display: inline-block;
+  vertical-align: middle;
+  float: right;
+  width: 45%;
+  text-align: right;
+  font-size: 14px;
+  margin-top: 40px;
+}
+
+.Foro {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 32px;
+  color: #ff88bf;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 100px;
+}
+
+.foro-experiencias {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.foro-experiencias label {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: #9d0fc9;
+  margin-bottom: 5px;
+}
+.foro-experiencias input[type=text],
+.foro-experiencias textarea {
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  color: #9d0fc9;
+  background-color: #F8F8F8;
+  border: 1px solid #ff88bf;
+  border-radius: 4px;
+  padding: 5px;
+  margin-bottom: 10px;
+  width: 80%;
+}
+.foro-experiencias textarea {
+  resize: none;
+  color: black;
+}
+.foro-experiencias input[type=submit] {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  color: black;
+  background-color: #9d0fc9;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.foro-experiencias input[type=submit]:hover {
+  background-color: #780b9a;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ff88bf;
+  margin-top: 40px;
+}
+
+/*Página apoyo*/
+/*Sección profesionales*/
+#ayuda {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 80px;
+  text-align: center;
+}
+#ayuda h2 {
+  color: palevioletred;
+}
+#ayuda .row {
+  display: flex;
+}
+#ayuda .row .col-4,
+#ayuda .row .col-8 {
+  padding: 15px;
+}
+#ayuda .row .list-group .list-group-item {
+  color: #FFC0CB;
+  background-color: #FFFFFF;
+  border: 1px solid #9d0fc9;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+#ayuda .row .list-group .list-group-item:hover {
+  background-color: #fff3f5;
+}
+#ayuda .row .list-group .list-group-item.active {
+  background-color: #FFC0CB;
+  color: #FFFFFF;
+}
+#ayuda .row .tab-content {
+  background-color: #FFFFFF;
+  border: 1px solid #9d0fc9;
+  border-radius: 4px;
+  padding: 20px;
+}
+#ayuda .row .tab-content .tab-pane {
+  color: #9d0fc9;
+  display: none;
+}
+#ayuda .row .tab-content .tab-pane.active {
+  display: block;
+}
+
+/*Sección fundaciones y números de emergencia*/
+.container {
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 100px;
+  margin-bottom: 80px;
+}
+.container h2 {
+  font-size: 28px;
+  color: black;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.container p {
+  font-size: 16px;
+  color: black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.container .accordion .accordion-item {
+  margin-bottom: 10px;
+}
+.container .accordion .accordion-item .accordion-header {
+  background-color: #FFC0CB;
+  border-radius: 4px;
+}
+.container .accordion .accordion-item .accordion-header .accordion-button {
+  color: #f5982e;
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  text-align: left;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.container .accordion .accordion-item .accordion-header .accordion-button:hover {
+  background-color: #ff8da1;
+}
+.container .accordion .accordion-item .accordion-header .accordion-button.collapsed {
+  color: #FFC0CB;
+  background-color: #f5982e;
+}
+.container .accordion .accordion-item .accordion-header .accordion-button.collapsed:hover {
+  background-color: #e57f0b;
+}
+.container .accordion .accordion-item .accordion-collapse .accordion-body {
+  font-size: 14px;
+  color: black;
+  padding: 10px;
+  background-color: #FFC0CB;
+  border-radius: 4px;
+}
+
+/*Fin página apoyo*/
+.contenedorcontacto {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: rgb(255, 211, 211);
+  border-radius: 10px;
+  margin-top: 50px;
+}
+.contenedorcontacto .contacto {
+  flex: 1;
+  margin-right: 80px;
+  text-align: center;
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.contenedorcontacto .contacto h3,
+.contenedorcontacto .contacto h6 {
+  margin-bottom: 10px;
+}
+.contenedorcontacto .contacto #formulario .form-control {
+  width: 100%;
+}
+.contenedorcontacto .contacto #formulario textarea {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.contenedorcontacto .contacto #formulario button {
+  background-color: #f700ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.contenedorcontacto .nosotros {
+  flex: 1;
+  margin-right: 80px;
+  margin-top: 40px;
+}
+.contenedorcontacto .nosotros h3 {
+  margin-bottom: 10px;
+}
+.contenedorcontacto .nosotros p {
+  margin-bottom: 20px;
+  text-align: justify;
+}
+.contenedorcontacto .nosotros img {
+  width: 100%;
+  border-radius: 10px;
+}
+.contenedorcontacto .redes {
+  flex: 1;
+  margin-top: 40px;
+  text-align: center;
+}
+.contenedorcontacto .redes a {
+  display: block;
+  margin-bottom: 10px;
+  text-decoration: none;
+  color: #f366b8;
+}
+.contenedorcontacto .redes img {
+  width: 32px;
+  height: 32px;
+}
+
+.Violencia {
+  margin-top: 80px;
+}
+.Violencia h6 {
+  text-align: center;
+  font-size: 25px;
+}
+.Violencia .container .row .col-md-6 {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+}
+.Violencia .container .row .col-md-6 p {
+  text-align: justify;
+}
+
+.tipos-violencia {
+  text-align: center;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 80px;
+}
+.tipos-violencia .row .col .card .card-body .card-text {
+  text-align: justify;
+}
+
+.container .carousel {
+  display: flex;
+  width: 60%;
+  justify-content: center;
+}
+.contenedor .banner {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contenedor .banner div .organización {
+  float: left;
+  width: 50%;
+  background-color: rgb(168, 54, 153);
+  height: 385px;
+  text-align: center;
+  padding: 30px;
+  padding-top: 100px;
+  /* Estilos para pantallas pequeñas */
+}
+.contenedor .banner div .organización h1 {
+  font-size: 2.2em;
+}
+@media screen and (max-width: 767px) {
+  .contenedor .banner div .organización h1 {
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 767px) {
+  .contenedor .banner div .organización p {
+    font-size: 0.8em;
+  }
+}
+.contenedor .banner div .organización a.boton {
+  padding: 0px 10px 0px 10px;
+  background: #29323d;
+  color: #ffffff;
+  border-color: #29323d;
+  border-width: 10px;
+  border-style: solid;
+  border-radius: 21px 21px 21px 21px;
+  font-weight: 700px;
+  font-size: 20px;
+  line-height: 60px;
+  text-align: center;
+  text-decoration: none;
+}
+.contenedor .banner div .logo {
+  float: left;
+  width: 50%;
+  display: flex;
+}
+.contenedor .banner div .logo img {
+  height: 385px;
+  width: 100%;
+}
+
+.Descripción {
+  text-align: center;
+  padding: 60px;
+}
+.Descripción h2 {
+  line-height: 100px;
+}
+.Descripción p {
+  margin-bottom: 80px;
+}
+.Descripción .row .col-sm-12 .card .card-body .card-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: rgb(183, 0, 255);
+  color: #fff;
+  margin-right: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */

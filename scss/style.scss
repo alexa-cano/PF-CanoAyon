@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    font-family:'Times New Roman', Times, serif
+}
+
+@import "header";
+@import "footer";
+@import "foro";
+@import "apoyo";
+@import "contacto";
+@import "informate";
+ 
+// index 
+.contenedor {
+    .banner {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center; 
+      div {
+        .organización {
+            float: left;
+    width: 50%;
+    background-color: rgb(168, 54, 153);
+    height:385px;
+    text-align: center;
+    padding: 30px;
+    padding-top: 100px;
+          h1 {
+            font-size: 2.2em;
+          }
+          /* Estilos para pantallas pequeñas */
+@media screen and (max-width: 767px) {
+    h1 {
+      font-size: 1.5em;
+    }
+  }
+          p {   
+          }
+          @media screen and (max-width: 767px) {
+            p {
+              font-size: .8em;
+            }
+          }
+          a.boton {
+    padding: 0px 10px 0px 10px;
+    background: #29323d;
+    color: #ffffff;
+    border-color: #29323d;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 21px 21px 21px 21px;
+    font-weight: 700px;
+    font-size: 20px;
+    line-height: 60px;
+    text-align: center;
+    text-decoration: none;
+          }
+        }
+        .logo {
+            float: left;
+            width: 50%;
+            display: flex;
+          img {
+            height:385px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+  
+// Sección descripción sitio web
+  .Descripción {
+    text-align: center;
+    padding: 60px;
+    h2 {
+        line-height: 100px;
+    }
+    p {
+        margin-bottom: 80px;
+    }
+    .row {
+      
+      .col-sm-12 {
+        
+        .card {
+          .card-body {
+            
+            .card-title {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background-color: rgb(183, 0, 255);
+                color: #fff;
+                margin-right: 10px;
+                font-size: 20px;
+                font-weight: bold;
+            }
+            .card-title2 {
+              
+            }
+            .card-text {
+            
+            }
+          }
+        }
+      }
+    }
+  }
