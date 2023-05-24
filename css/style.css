@@ -384,6 +384,12 @@ hr {
 .Descripción p {
   margin-bottom: 80px;
 }
+.Descripción .row {
+  transition: transform 2s;
+}
+.Descripción .row .row:hover {
+  transform: all scale(2);
+}
 .Descripción .row .col-sm-12 .card .card-body .card-title {
   display: flex;
   justify-content: center;
@@ -398,4 +404,84 @@ hr {
   font-weight: bold;
 }
 
+/*Cambios que faltan SASS*/
+/*Sección tabla apoyo*/
+.responsive-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+.responsive-table th, .responsive-table td {
+  border: 1px solid #f881da;
+  padding: 8px;
+  text-align: left;
+}
+.responsive-table th {
+  background-color: #a7c8e6;
+}
+.responsive-table td:first-child {
+  background-color: #fdfcfc;
+}
+.responsive-table td:last-child {
+  background-color: #f8fdfd;
+}
+@media screen and (max-width: 600px) {
+  .responsive-table th, .responsive-table td {
+      display: block;
+  }
+}
+
+.estadistic{
+  text-align: justify;
+}
+.estadistic h2{
+  color: #780b9a;
+}
+
+.estadistic h4{
+text-align: center;
+margin-top: 50px;
+}
+
+.accordion-body h1{
+  color: #c90f82;
+  font-size: 20px;
+  text-align: center;
+  }
+
+
+.denuncia {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bordered-image {
+    width: 300px; 
+    height: 300px; 
+    border-radius: 10%; 
+    object-fit: cover; 
+    margin: 1em;
+}
+
+.middle-image:hover {
+    transform: scale(1.1); 
+    transition: transform 0.3s ease-in-out; 
+}
+
+@media (max-width: 700px) {
+  .bordered-image {
+      width: 100px; /* Reducir el tamaño de las imágenes */
+      height: 100px; /* Reducir el tamaño de las imágenes */
+  }
+}
+En este código, he añadido una consulta de medios que reducirá el tamaño de las imágenes y cambiará su disposición a vertical cuando la pantalla sea de 600px de ancho o menos. Puedes ajustar este valor de acuerdo a tus necesidades.
+
+
+
+
+
+
+
+
+  
 /*# sourceMappingURL=style.css.map */
